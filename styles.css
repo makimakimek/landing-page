@@ -1,0 +1,31 @@
+.container1 {
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.headerleft {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.headerright, .titlesubtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.headerright {
+    display: flex;
+}
+
+.title {
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.link {
+    padding: 30px;
+}
