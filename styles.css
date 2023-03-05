@@ -21,11 +21,42 @@
     display: flex;
 }
 
-.title {
-    font-size: 48px;
-    color: #f9faf8;
-}
-
 .link {
     padding: 30px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.container1leftandright {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container1left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+}
+
+.container1right {
+    display: flex;
+    align-items: center;
+}
+
+.image1 {
+    height: 300px;
+    width: auto;
+}
+
+.signupbutton1 {
+    color: #f9faf8;
+    background-color: #3882f6;
 }
