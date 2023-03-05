@@ -101,6 +101,10 @@
     border-radius: 20px;
 }
 
+.imageandsubtext > div {
+    text-align: center;
+}
+
 /*/////////////////////container3///////////////////*/
 
 .container3 {
