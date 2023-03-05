@@ -26,12 +26,15 @@
 }
 
 .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.title > div {
     font-size: 48px;
     font-weight: extra-bold;
     color: #f9faf8;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
 }
 
 .container1leftandright {
@@ -42,8 +45,7 @@
 .container1left {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 0px;
+
 }
 
 .container1right {
@@ -59,4 +61,48 @@
 .signupbutton1 {
     color: #f9faf8;
     background-color: #3882f6;
+    text-align: center;
+    border-radius: 20px;
+    width: 100px;
+    height: auto;
+}
+
+.titlesubtext {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+}
+
+/*/////////////////////container2///////////////////*/
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.container2top {
+    color: black;
+    font-weight: extra-bold;
+    font-size: 28px;
+    text-align: center;
+}
+
+.container2bottom {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imageandsubtext > img {
+    width: 150px;
+    height: auto;
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+}
+
+/*/////////////////////container3///////////////////*/
+
+.container3 {
+    background-color: #e5e7eb;
 }
