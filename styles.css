@@ -127,10 +127,36 @@
 .quote {
     display: flex;
     flex-direction: column;
+    padding: 5%;
+}
+
+.quote > div {
+    font-size: 28px;
+    font-style: italic;
+    text-align: center;
+}
+
+.author > div {
+    font-size: 20px;
+    font-weight: 800;
+    text-align: right;
 }
 
 /*/////////////////////container4///////////////////*/
 
 .container4 {
     height: 45vh;
+}
+
+.textpart {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.container4right > div {
+    text-align: center;
+    width: 100px;
+    height: auto;
+    border: 2px solid #f9faf8;
+    border-radius: 6px;
 }
