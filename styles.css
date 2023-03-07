@@ -73,6 +73,7 @@
     border-radius: 20px;
     width: 100px;
     height: auto;
+    font-size: 17px;
 }
 
 .titlesubtext {
@@ -165,13 +166,13 @@
 }
 
 .container4right > div {
-    width: 100px;
-    height: auto;
+    
     font-weight: 700;
     text-align: center;
     border: 2px solid #f9faf8;
     text-align: center;
     border-radius: 6px;
+    padding: 5px 25px;
 }
 
 .text1 {
